@@ -13,8 +13,8 @@ print("_" * 50)
 
 raw_signals = np.array([-1.7,-0.2,0.5,1.4,2.8])
 print("Raw Signals:", raw_signals)
-print("Floor of Raw Signals:", np.floor(raw_signals))  # Element-wise floor function used = np.floor(raw_signals) look for next whole number
-print("Ceil of Raw Signals:", np.ceil(raw_signals))  # Element-wise ceil function used = np.ceil(raw_signals) look for previous whole number
+print("Floor of Raw Signals:", np.floor(raw_signals))  # Element-wise floor function used = np.floor(raw_signals) look for previous whole number
+print("Ceil of Raw Signals:", np.ceil(raw_signals))  # Element-wise ceil function used = np.ceil(raw_signals) look for next whole number
 print("Round of Raw Signals:", np.round(raw_signals))  # Element-wise round function used = np.round(raw_signals)
 
 print("_" * 50)
