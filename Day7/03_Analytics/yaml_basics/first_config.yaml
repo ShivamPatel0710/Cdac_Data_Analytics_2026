@@ -1,0 +1,16 @@
+# Yaml means " Yet another Markup Language"
+# think of this as a library
+
+
+app_name : "MyAwesomeApp"
+version : 1.2.0
+debug_mode : true
+database : 
+  host : "localhost"
+  port : 5432
+  users : "admin"
+features :
+  - "dark_mode"
+  - "auto_save"
+  - "notification"
+-
